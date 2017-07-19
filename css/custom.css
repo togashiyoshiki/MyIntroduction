@@ -1,0 +1,35 @@
+.text-anime2{
+  display: inline-block;
+  animation: text_animation2 2s forwards;
+}
+
+@keyframes text_animation2{
+  0%{
+    color: #000;
+    text-shadow: none;
+  }
+
+  25%{
+    color: #fff;
+    text-shadow:
+      1px 0 0 #000,
+      0 1px 0 #000;
+  }
+
+  50%{
+    box-shadow: none;
+  }
+
+  100%{
+    color: #008000;
+    box-shadow: 0 -5px 0 0 #EE7E63 inset;
+  }
+}
+
+
+/*追加文字の挿入*/
+.sub{
+  text-align: center;
+
+
+}
